@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+    </style>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="main.js" defer></script>
+
+    <title>Frontend Mentor | Time tracking dashboard</title>
+  </head>
+  <body
+    class="font-[Rubik] flex justify-center items-center lg:px-[3rem] px- py-[12rem] bg-[#0e1323]"
+  >
+    <main class="flex lg:flex-row flex-col justify-between gap-[2rem]">
+      <section
+        id="report"
+        class="flex flex-col bg-[#1c204b] lg:w-[15.93rem] rounded-2xl"
+      >
+        <div
+          class="p-[2rem] rounded-2xl bg-purple-600 grow flex lg:flex-col max-lg:flex-row gap-[1rem] max-lg:items-center lg:gap-[2rem]"
+        >
+          <img
+            class="max-w-[4.875rem] max-h-[4.875rem] border-[#d8d8d8] shadow-md border-3 rounded-[100%]"
+            src="images/image-jeremy.png"
+            alt="image-jeremy"
+          />
+          <div>
+            <h6 class="font-normal text-[#bbc0ff] md:text-base text-sm">
+              Report for
+            </h6>
+            <h2
+              class="font-light md:text-[2.5rem] text-2xl text-white md:leading-12"
+            >
+              Jeremy Robson
+            </h2>
+          </div>
+        </div>
+        <div
+          class="px-[2rem] pb-[2rem] pt-[1.75rem] flex lg:flex-col flex-row justify-between md:justify-center max-lg:gap-[3rem] gap-[1rem]"
+        >
+          <span
+            id="daily"
+            tabindex="0"
+            class="timeframe font-normal text-purple-500 focus:text-white text-[1.125rem] cursor-pointer"
+            >Daily</span
+          >
+          <span
+            id="weekly"
+            tabindex="0"
+            class="timeframe font-normal text-purple-500 focus:text-white text-[1.125rem] cursor-pointer"
+            >Weekly</span
+          >
+          <span
+            id="monthly"
+            tabindex="0"
+            class="timeframe font-normal text-white focus:text-white text-[1.125rem] cursor-pointer"
+            >Monthly</span
+          >
+        </div>
+      </section>
+
+      <section
+        id="cards"
+        class="grid md:grid-cols-3 max-md:grid-cols-1 gap-y-[2rem] gap-x-[2rem]"
+      ></section>
+    </main>
+  </body>
+</html>
