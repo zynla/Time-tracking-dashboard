@@ -46,7 +46,7 @@ Here is a screenshot of the desktop solution:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/newsletter-sign-up-form-with-success-message-h6sUgA4fLI)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/time-tracking-dashboard--UVcxOdcjN)
 - Live Site URL: [Vercel.com](https://time-tracking-dashboard-nu-sage.vercel.app/)
 
 
