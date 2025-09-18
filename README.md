@@ -32,7 +32,7 @@ Here is a screenshot of the mobile solution:
 
 --
 
-Here is a screenshot of the tablet solution with the active button:
+Here is a screenshot of the tablet solution:
 
 ![](./design/tablet.png)
 
@@ -47,7 +47,7 @@ Here is a screenshot of the desktop solution:
 ### Links
 
 - Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/newsletter-sign-up-form-with-success-message-h6sUgA4fLI)
-- Live Site URL: [Vercel.com](https://newsletter-sign-up-form-mocha.vercel.app/)
+- Live Site URL: [Vercel.com](https://time-tracking-dashboard-nu-sage.vercel.app/)
 
 
 ## My process
@@ -78,7 +78,7 @@ Working on this project helped me practice several important concepts:
       });
     });
 
-- Accessing nested objects in JSON, I understood the difference between arrays (data[0]) and objects (data[0].timeframes.daily.current), and when to use `Object.keys()` to loop through dynamic keys.
+- Accessing nested objects in JSON, I understood the difference between arrays ``(data[0])`` and objects ``(data[0].timeframes.daily.current)``, and when to use `Object.keys()` to loop through dynamic keys.
 
 - Dynamic UI updates based on user interaction, by clicking on buttons like Daily, Weekly, or Monthly, I learned how to change the displayed values and use a mapping object to display different label (Yesterday, Last week, Last month).
 
